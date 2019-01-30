@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  diskcommerce.service:
+    image: ${DOCKER_REGISTRY-}diskcommerceservice
+    build:
+      context: .
+      dockerfile: DiskCommerce.Service\Dockerfile

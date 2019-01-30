@@ -1,0 +1,12 @@
+C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Model\bin\Debug\netcoreapp2.1\DiskCommerce.Domain.deps.json
+C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Model\bin\Debug\netcoreapp2.1\DiskCommerce.Domain.dll
+C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Model\bin\Debug\netcoreapp2.1\DiskCommerce.Domain.pdb
+C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Model\bin\Debug\netcoreapp2.1\DiskCommerce.Commom.dll
+C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Model\bin\Debug\netcoreapp2.1\DiskCommerce.Commom.pdb
+C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Model\obj\Debug\netcoreapp2.1\DiskCommerce.Domain.csprojAssemblyReference.cache
+C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Model\obj\Debug\netcoreapp2.1\DiskCommerce.Domain.csproj.CoreCompileInputs.cache
+C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Model\obj\Debug\netcoreapp2.1\DiskCommerce.Domain.AssemblyInfoInputs.cache
+C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Model\obj\Debug\netcoreapp2.1\DiskCommerce.Domain.AssemblyInfo.cs
+C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Model\obj\Debug\netcoreapp2.1\DiskCommerce.Domain.csproj.CopyComplete
+C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Model\obj\Debug\netcoreapp2.1\DiskCommerce.Domain.dll
+C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Model\obj\Debug\netcoreapp2.1\DiskCommerce.Domain.pdb

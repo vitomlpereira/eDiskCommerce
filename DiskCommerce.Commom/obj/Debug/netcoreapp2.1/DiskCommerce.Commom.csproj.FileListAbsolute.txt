@@ -1,0 +1,8 @@
+C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Commom\bin\Debug\netcoreapp2.1\DiskCommerce.Commom.deps.json
+C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Commom\bin\Debug\netcoreapp2.1\DiskCommerce.Commom.dll
+C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Commom\bin\Debug\netcoreapp2.1\DiskCommerce.Commom.pdb
+C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Commom\obj\Debug\netcoreapp2.1\DiskCommerce.Commom.csproj.CoreCompileInputs.cache
+C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Commom\obj\Debug\netcoreapp2.1\DiskCommerce.Commom.AssemblyInfoInputs.cache
+C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Commom\obj\Debug\netcoreapp2.1\DiskCommerce.Commom.AssemblyInfo.cs
+C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Commom\obj\Debug\netcoreapp2.1\DiskCommerce.Commom.dll
+C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Commom\obj\Debug\netcoreapp2.1\DiskCommerce.Commom.pdb
