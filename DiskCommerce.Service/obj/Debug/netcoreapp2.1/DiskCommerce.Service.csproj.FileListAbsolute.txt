@@ -17,8 +17,8 @@ C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Service\bin\Debu
 C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Service\bin\Debug\netcoreapp2.1\DiskCommerce.ExternalServices.Spotify.dll
 C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Service\bin\Debug\netcoreapp2.1\DiskCommerce.Cross.IoC.pdb
 C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Service\bin\Debug\netcoreapp2.1\DiskCommerce.Database.pdb
-C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Service\bin\Debug\netcoreapp2.1\DiskCommerce.ExternalServices.Spotify.pdb
 C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Service\bin\Debug\netcoreapp2.1\DiskCommerce.Domain.pdb
+C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Service\bin\Debug\netcoreapp2.1\DiskCommerce.ExternalServices.Spotify.pdb
 C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Service\bin\Debug\netcoreapp2.1\DiskCommerce.Commom.pdb
 C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Service\obj\Debug\netcoreapp2.1\DiskCommerce.Service.RazorTargetAssemblyInfo.cache
 C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Service\obj\Debug\netcoreapp2.1\DiskCommerce.Service.csproj.CopyComplete

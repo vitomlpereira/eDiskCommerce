@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using DiskCommerce.Commom.Pagging;
+﻿using DiskCommerce.Commom.Pagging;
 using DiskCommerce.Domain.Entities;
-using DiskCommerce.Domain.Enumerators;
 using DiskCommerce.Domain.Interfaces;
-using DiskCommerce.Service.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DiskCommerce.Service.Controllers
@@ -23,7 +17,7 @@ namespace DiskCommerce.Service.Controllers
         }
 
         [HttpGet()]
-        public ActionResult<PagedResult<DiskViewModelResult>> Get(int actualPage = 1, int pageSize = 20)
+        public ActionResult<PagedResult<Disk>> Get(int actualPage = 1, int pageSize = 20)
         {
             return Ok(_buyerRepository.GetPagged(actualPage, pageSize));
         }

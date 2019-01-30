@@ -6,3 +6,4 @@ C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Commom\obj\Debug
 C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Commom\obj\Debug\netcoreapp2.1\DiskCommerce.Commom.AssemblyInfo.cs
 C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Commom\obj\Debug\netcoreapp2.1\DiskCommerce.Commom.dll
 C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Commom\obj\Debug\netcoreapp2.1\DiskCommerce.Commom.pdb
+C:\Users\VitoMiracapillo\source\repos\DiskCommerce\DiskCommerce.Commom\obj\Debug\netcoreapp2.1\DiskCommerce.Commom.csprojAssemblyReference.cache

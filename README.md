@@ -2,7 +2,7 @@
 
 eDiskCommerce Application
 =====================
- API de exemplo escrita em .NET Core
+ API .NET Core
  
   Api deve simular um eCommerce de discos, permitindo a venda e calculando o valor de cashback de cada compra e itens.
 
@@ -23,6 +23,13 @@ eDiskCommerce Application
 
   Acessar o Swagger para visualizar os endPoint e testar as chamadas
   https://localhost:5001/swagger/index.html
+  
+  # informações importantes :
+  
+   - A aplicação esta utilizando EF Core in memory ( * Apenas para testes) , portanto os dados só são mantidos durante o ciclo de vida da aplicaçaõ.
+   - Os registros de discos estão sendo buscados da API do Spotify no momento da inicialização da aplicação.
+   - Não existe Endpint para cadastrar clientes( Buyers), durante a inicialização a tabela de Buyers também é inicializada
+   - Divida Técnica: A Api esta retornando classes do dominio ao invés de serem mapeadas para ViewModels (Automapper) 
 
 ## Tecnologias Utilizadas:
 

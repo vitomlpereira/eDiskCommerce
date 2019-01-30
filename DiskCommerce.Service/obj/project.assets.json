@@ -1976,7 +1976,7 @@
           "lib/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/2.2.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.1": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -4582,8 +4582,7 @@
           "DiskCommerce.Domain": "1.0.0",
           "DiskCommerce.ExternalServices.Spotify": "1.0.0",
           "Microsoft.AspNetCore.Http": "2.1.1",
-          "Microsoft.EntityFrameworkCore.InMemory": "2.1.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0"
+          "Microsoft.EntityFrameworkCore.InMemory": "2.1.0"
         },
         "compile": {
           "bin/placeholder/DiskCommerce.Cross.IoC.dll": {}
@@ -6467,16 +6466,16 @@
         "microsoft.extensions.dependencyinjection.nuspec"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/2.2.0": {
-      "sha512": "2xMk9LHz1EY+7gVG0lG4qBvkUiVjg8QNPqd2HYmEP5+PL7Ayo96EhBieAhd++Gx4yM+xN8kNqmhZdFMBHeG0HQ==",
+    "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.1": {
+      "sha512": "PW1596sF97gpIc1JuUuYvTmeLfeqC5whbWPsWgJhN0fdwz683him3b/HB0dqhFesVssOjnnA0fEz4+S0gUeBqA==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/2.2.0",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/2.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "microsoft.extensions.dependencyinjection.abstractions.2.2.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.2.1.1.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec"
       ]
     },
@@ -12497,8 +12496,8 @@
     },
     "DiskCommerce.Database/1.0.0": {
       "type": "project",
-      "path": "../DiskCommerce.Infrascructure.Database/DiskCommerce.Database.csproj",
-      "msbuildProject": "../DiskCommerce.Infrascructure.Database/DiskCommerce.Database.csproj"
+      "path": "../DiskCommerce.Database/DiskCommerce.Database.csproj",
+      "msbuildProject": "../DiskCommerce.Database/DiskCommerce.Database.csproj"
     },
     "DiskCommerce.Domain/1.0.0": {
       "type": "project",
@@ -12507,8 +12506,8 @@
     },
     "DiskCommerce.ExternalServices.Spotify/1.0.0": {
       "type": "project",
-      "path": "../DiskCommerce.Infrastructure.ExternalServices.Spotify/DiskCommerce.ExternalServices.Spotify.csproj",
-      "msbuildProject": "../DiskCommerce.Infrastructure.ExternalServices.Spotify/DiskCommerce.ExternalServices.Spotify.csproj"
+      "path": "../DiskCommerce.Spotify/DiskCommerce.ExternalServices.Spotify.csproj",
+      "msbuildProject": "../DiskCommerce.Spotify/DiskCommerce.ExternalServices.Spotify.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -12520,9 +12519,7 @@
       "MediatR.Extensions.Microsoft.AspNetCore.Mvc >= 2.0.0",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 6.0.1",
       "Microsoft.AspNetCore.App >= 2.1.1",
-      "Microsoft.AspNetCore.Http >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
-      "Microsoft.Extensions.DependencyInjection.Abstractions >= 2.2.0",
       "Microsoft.NETCore.App >= 2.1.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.0.2105168",
       "SpotifyAPI.Web.Auth >= 3.1.1",
@@ -12563,14 +12560,14 @@
             "C:\\Users\\VitoMiracapillo\\source\\repos\\DiskCommerce\\DiskCommerce.Cross.IoC\\DiskCommerce.Cross.IoC.csproj": {
               "projectPath": "C:\\Users\\VitoMiracapillo\\source\\repos\\DiskCommerce\\DiskCommerce.Cross.IoC\\DiskCommerce.Cross.IoC.csproj"
             },
-            "C:\\Users\\VitoMiracapillo\\source\\repos\\DiskCommerce\\DiskCommerce.Infrascructure.Database\\DiskCommerce.Database.csproj": {
-              "projectPath": "C:\\Users\\VitoMiracapillo\\source\\repos\\DiskCommerce\\DiskCommerce.Infrascructure.Database\\DiskCommerce.Database.csproj"
-            },
-            "C:\\Users\\VitoMiracapillo\\source\\repos\\DiskCommerce\\DiskCommerce.Infrastructure.ExternalServices.Spotify\\DiskCommerce.ExternalServices.Spotify.csproj": {
-              "projectPath": "C:\\Users\\VitoMiracapillo\\source\\repos\\DiskCommerce\\DiskCommerce.Infrastructure.ExternalServices.Spotify\\DiskCommerce.ExternalServices.Spotify.csproj"
+            "C:\\Users\\VitoMiracapillo\\source\\repos\\DiskCommerce\\DiskCommerce.Database\\DiskCommerce.Database.csproj": {
+              "projectPath": "C:\\Users\\VitoMiracapillo\\source\\repos\\DiskCommerce\\DiskCommerce.Database\\DiskCommerce.Database.csproj"
             },
             "C:\\Users\\VitoMiracapillo\\source\\repos\\DiskCommerce\\DiskCommerce.Model\\DiskCommerce.Domain.csproj": {
               "projectPath": "C:\\Users\\VitoMiracapillo\\source\\repos\\DiskCommerce\\DiskCommerce.Model\\DiskCommerce.Domain.csproj"
+            },
+            "C:\\Users\\VitoMiracapillo\\source\\repos\\DiskCommerce\\DiskCommerce.Spotify\\DiskCommerce.ExternalServices.Spotify.csproj": {
+              "projectPath": "C:\\Users\\VitoMiracapillo\\source\\repos\\DiskCommerce\\DiskCommerce.Spotify\\DiskCommerce.ExternalServices.Spotify.csproj"
             }
           }
         }
@@ -12598,18 +12595,10 @@
             "version": "[2.1.1, )",
             "autoReferenced": true
           },
-          "Microsoft.AspNetCore.Http": {
-            "target": "Package",
-            "version": "[2.1.1, )"
-          },
           "Microsoft.AspNetCore.Razor.Design": {
             "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.2, )"
-          },
-          "Microsoft.Extensions.DependencyInjection.Abstractions": {
-            "target": "Package",
-            "version": "[2.2.0, )"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",
@@ -12636,17 +12625,5 @@
         "warn": true
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.1 requires Microsoft.Extensions.DependencyInjection.Abstractions (>= 2.1.1 && < 2.2.0) but version Microsoft.Extensions.DependencyInjection.Abstractions 2.2.0 was resolved.",
-      "libraryId": "Microsoft.Extensions.DependencyInjection.Abstractions",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.1"
-      ]
-    }
-  ]
+  }
 }

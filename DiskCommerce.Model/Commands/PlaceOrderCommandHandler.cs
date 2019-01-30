@@ -24,12 +24,13 @@ namespace DiskCommerce.Domain.Commands
         private readonly IPublisher _publisher;
         private readonly DomainNotificationHandler _domainNotificationHandler;
 
-        public PlaceOrderCommandHandler(IBuyerRepository buyerRepository, IDiskReadRepositoy diskReadOnlyRepositoy, IOrderRepository orderRepository, IPublisher publisher)
+        public PlaceOrderCommandHandler(IBuyerRepository buyerRepository, IDiskReadRepositoy diskReadOnlyRepositoy, IOrderRepository orderRepository, IPublisher publisher, DomainNotificationHandler domainNotificationHandler)
         {
             _buyerRepository = buyerRepository;
             _diskReadOnlyRepositoy = diskReadOnlyRepositoy;
             _orderRepository = orderRepository;
             _publisher = publisher;
+            _domainNotificationHandler = domainNotificationHandler;
         }
 
         public Task<Unit> Handle(PlaceOrderCommand command, CancellationToken cancellationToken)

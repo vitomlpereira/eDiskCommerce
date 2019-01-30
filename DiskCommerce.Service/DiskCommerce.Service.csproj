@@ -15,9 +15,7 @@
     <PackageReference Include="MediatR.Extensions.Microsoft.AspNetCore.Mvc" Version="2.0.0" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="6.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
-    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.0.2105168" />
     <PackageReference Include="SpotifyAPI.Web.Auth" Version="3.1.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
@@ -25,9 +23,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DiskCommerce.Cross.IoC\DiskCommerce.Cross.IoC.csproj" />
-    <ProjectReference Include="..\DiskCommerce.Infrascructure.Database\DiskCommerce.Database.csproj" />
-    <ProjectReference Include="..\DiskCommerce.Infrastructure.ExternalServices.Spotify\DiskCommerce.ExternalServices.Spotify.csproj" />
+    <ProjectReference Include="..\DiskCommerce.Database\DiskCommerce.Database.csproj" />
     <ProjectReference Include="..\DiskCommerce.Model\DiskCommerce.Domain.csproj" />
+    <ProjectReference Include="..\DiskCommerce.Spotify\DiskCommerce.ExternalServices.Spotify.csproj" />
   </ItemGroup>
 
 </Project>

@@ -7,14 +7,13 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.1.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="2.1.0" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\DiskCommerce.Commom\DiskCommerce.Commom.csproj" />
-    <ProjectReference Include="..\DiskCommerce.Infrascructure.Database\DiskCommerce.Database.csproj" />
-    <ProjectReference Include="..\DiskCommerce.Infrastructure.ExternalServices.Spotify\DiskCommerce.ExternalServices.Spotify.csproj" />
+    <ProjectReference Include="..\DiskCommerce.Database\DiskCommerce.Database.csproj" />
     <ProjectReference Include="..\DiskCommerce.Model\DiskCommerce.Domain.csproj" />
+    <ProjectReference Include="..\DiskCommerce.Spotify\DiskCommerce.ExternalServices.Spotify.csproj" />
   </ItemGroup>
 
 </Project>
