@@ -22,6 +22,7 @@ namespace DiskCommerce.Database.Repositories
             return _context.Cashbacks
             .Include(x => x.OrderCashbacktems)
             .Include(x => x.RelatedOrder)
+            .Include(x => x.RelatedOrder.OrderItems)
             .Where(x => x.RelatedOrder.Id == orderID).FirstOrDefault();
         }
 

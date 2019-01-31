@@ -26,9 +26,9 @@ eDiskCommerce Application
   
   # informações importantes :
   
-   - A aplicação esta utilizando EF Core in memory ( * Apenas para testes) , portanto os dados só são mantidos durante o ciclo de vida da aplicaçaõ.
-   - Os registros de discos estão sendo buscados da API do Spotify no momento da inicialização da aplicação.
-   - Não existe Endpint para cadastrar clientes( Buyers), durante a inicialização a tabela de Buyers também é inicializada
+   - A aplicação esta utilizando EF Core in memory ( * Apenas para testes) , portanto os dados só serão mantidos durante o ciclo de vida da aplicação.
+   - Os dados de clientes( Buyers) e de discos estão sendo criados no momento da inicialização
+   - Os discos são buscados através da API do Spotify.
    - Divida Técnica: A Api esta retornando classes do dominio ao invés de serem mapeadas para ViewModels (Automapper) 
 
 ## Tecnologias Utilizadas:

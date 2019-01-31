@@ -21,8 +21,8 @@ namespace DiskCommerce.Database.Mappgings
             builder.HasOne(p => p.RelatedOrder);
 
             builder.HasMany(o => o.OrderCashbacktems)
-               .WithOne();
-               //.Metadata.PrincipalToDependent.SetPropertyAccessMode(PropertyAccessMode.Field);
+               .WithOne()
+               .Metadata.PrincipalToDependent.SetPropertyAccessMode(PropertyAccessMode.Field);
  
             builder.Property(o => o.OrderCashbackValue)
                 .HasColumnName("CashbackValue")

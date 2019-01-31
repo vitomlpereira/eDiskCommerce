@@ -35,7 +35,7 @@ namespace DiskCommerce.Service.Controllers
             if (cashBack == null)
                 return NotFound();
 
-            return Ok();
+            return Ok(cashBack);
         }
     
     }
